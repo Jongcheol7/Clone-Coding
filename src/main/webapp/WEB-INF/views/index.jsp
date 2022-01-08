@@ -39,6 +39,60 @@
             </div>
         </nav>
 
+        <div class="slide">
+            <img src="img/slide1.png" alt="">
+        </div>
+
+        <main>
+            <section class="section1">
+                <div class="top">
+                    <h1>아이들을 위한 <spam style="color: #0B871E;">다양한 사업</spam>을 진행합니다.</h1>
+                    <a href="#">전체보기<span><i class="fas fa-arrow-right"></i></span></a>
+                </div>
+                <div class="cards">
+                    <div class="card">
+                        <div class="img"></div>
+                        <div class="flag">국내사업</div>
+                        <div class="card_description">
+                            <h1>[KBS 동행 제339회] 다은이의 분홍 앞치마</h1>
+                            <P>자세히 보기 +</P>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="img"></div>
+                        <div class="flag">해외사업</div>
+                        <div class="card_description">
+                            <h1>[KBS 동행 제339회] 다은이의 분홍 앞치마</h1>
+                            <P>자세히 보기 +</P>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="img"></div>
+                        <div class="flag">국내사업</div>
+                        <div class="card_description">
+                            <h1>[KBS 동행 제339회] 다은이의 분홍 앞치마</h1>
+                            <P>자세히 보기 +</P>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section2">
+                <div>
+                    <div class="top">
+                        <h1>아이들이 <span style="color: #75AB30;">행복하고 </span><span style="color: #0B871E;">건강한 세상</span>을 만들어 나갑니다.</h1>
+                    </div>
+                    <div class="contents">
+                        <div class="content1"></div>
+                        <div class="content2"></div>
+                        <div class="content3"></div>
+                        <div class="content4"></div>
+                    </div>
+                </div>
+            </section>
+            
+        </main>
+
     </div>
     
 </body>

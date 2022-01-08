@@ -9,13 +9,14 @@
     width: 100%;
 }
 
+/* 네이게이션 */
 nav{
-    width: 1100px;
+    width: 1050px;
     margin: 0 auto;
     padding-top: 10px;
     display: flex;
     flex-direction: column;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 nav .nav_top{
     display: flex;
@@ -23,8 +24,200 @@ nav .nav_top{
     margin-right: 50px;
 }
 nav .nav_top button{
-    padding: 5px 15px;
+    padding: 7px 20px;
     border-radius: 5px;
     border: none;
-    font-size: 1rem;
+    font-size: 15px;
+    background-color: #5979C2;
+    color: #f2f2f2;
+    font-weight: bold;
+}
+nav .nav_top div{
+    margin-top: 5px;
+    margin-left: 15px;
+}
+nav .nav_top div a{
+    color: gray;
+    padding: 5px;
+    letter-spacing: -3px;
+}
+nav .nav_top div a::after{
+    content: "l";
+    padding-left: 10px;
+}
+nav .nav_top div a:last-child::after{
+    content: "";
+}
+
+nav .nav_bottom{
+    display: flex;
+    align-items: center;
+    height: 60px;
+}
+nav .nav_bottom ul{
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+nav .nav_bottom ul li{
+    font-size: 21px;
+    font-weight: bold;
+    padding: 0 20px;
+}
+nav .nav_bottom button{
+    /* align-items: center; */
+    height: 40px;
+    padding: 5px 20px;
+    background-color: #0B871E;
+    color: #f2f2f2;
+    font-weight: bold;
+    font-size: 17px;
+    border: none;
+}
+nav .nav_bottom i{
+    padding: 10px;
+    font-size: 30px;
+    /* font-weight: 600; */
+    margin-left: 10px;
+}
+
+
+/* 슬라이드 */
+.slide img{
+    width: 100%;
+    height: 600px;
+}
+
+
+
+/* 메인 */
+main{
+    
+}
+/* 섹션1 */
+.section1{
+    /* height: 500px; */
+    /* background-color: ivory; */
+    width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 80px;
+}
+.section1 .top{
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.section1 .top h1{
+    font-size: 38px;
+    font-weight: bold;
+    letter-spacing: -3px;
+}
+.section1 .top a{
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+}
+.section1 .top a:hover{
+    color: gray;
+}
+.section1 .top a .fa-arrow-right{
+    padding-left: 15px;
+}
+.section1 .cards{
+    margin-top: 30px;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+}
+.section1 .cards .card{
+    border: 1px solid lightgray;
+    position: relative;
+}
+.section1 .cards .card .flag{
+    width: 90px;
+    height: 38px;
+    text-align: center;
+    line-height: 35px;
+    color: #f1f1f1;
+    font-weight: bold;
+    background-color: #978068;
+    position: absolute;
+    top: 0;
+}
+.section1 .cards .card .img{
+    width: auto;
+    height: 280px;
+}
+.section1 .cards .card:nth-child(1) .img{
+    background: url("img/section1_1.jpg") no-repeat center;
+    background-size: cover;
+}
+.section1 .cards .card:nth-child(2) .img{
+    background: url("img/section1_2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section1 .cards .card:nth-child(3) .img{
+    background: url("img/section1_3.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.section1 .cards .card .card_description{
+    height: 160px;
+}
+.section1 .cards .card .card_description h1{
+    padding: 20px;
+    font-size: 20px;
+    letter-spacing: -1px;
+    margin-right: 30px;
+}
+.section1 .cards .card .card_description p{
+    padding: 20px;
+    letter-spacing: -2px;
+    font-size: 15px;
+    color: gray;
+}
+
+
+/* 섹션2 */
+.section2{
+    height: 700px;
+    width: 100vw;
+    background-color: #F4F4F4;
+}
+.section2 div{
+    width: 1200px;
+    margin: 0 auto;
+}
+.section2 .top{
+    padding-top: 100px;
+}
+.section2 .top h1{
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: -4px;
+}
+.section2 .contents{
+    display: flex;
+    gap: 20px;
+}
+.section2 .contents div{
+    background-color: violet;
+}
+.section2 .contents div:nth-child(1){
+    width: 900px;
+    height: 150px;
+}
+.section2 .contents div:nth-child(2){
+    width: 300px;
+    height: 150px;
+}
+.section2 .contents div:nth-child(3){
+    width: 900px;
+    height: 100px;
+}
+.section2 .contents div:nth-child(4){
+    width: 300px;
+    height: 100px;
 }
