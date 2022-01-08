@@ -80,7 +80,7 @@
             <section class="section2">
                 <div>
                     <div class="top">
-                        <h1>아이들이 <span style="color: #75AB30;">행복하고 </span><span style="color: #0B871E;">건강한 세상</span>을 만들어 나갑니다.</h1>
+                        <h1>아이들이 <span style="color: #75AB30;">행복하고 </span><span style="color: #0B871E;">건강한 세상</span>을 만들어 나갑니다. </h1>
                     </div>
                     <div class="contents">
                         <div class="content1"></div>
