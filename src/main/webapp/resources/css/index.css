@@ -151,15 +151,15 @@ main{
     height: 280px;
 }
 .section1 .cards .card:nth-child(1) .img{
-    background: url("img/section1_1.jpg") no-repeat center;
+    background: url("../img/section1_1.jpg") no-repeat center;
     background-size: cover;
 }
 .section1 .cards .card:nth-child(2) .img{
-    background: url("img/section1_2.jpg") no-repeat center;
+    background: url("../img/section1_2.jpg") no-repeat center;
     background-size: cover;
 }
 .section1 .cards .card:nth-child(3) .img{
-    background: url("img/section1_3.jpg") no-repeat center;
+    background: url("../img/section1_3.jpg") no-repeat center;
     background-size: cover;
 }
 
